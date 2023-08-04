@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="7MT Marketplace Zero",
+    page_title="ironMirror Marketplace Zero",
     page_icon="👋",
 )
 
