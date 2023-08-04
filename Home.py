@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 # Confit
-st.set_page_config(page_title=ironMirror Cross Chain Monitoring Hub', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title='ironMirror Cross Chain Monitoring Hub', page_icon=':bar_chart:', layout='wide')
 
 # Title
 st.title('ironMirror Cross Chain Monitoring Hub')
