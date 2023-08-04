@@ -3,10 +3,10 @@ import streamlit as st
 from PIL import Image
 
 # Confit
-st.set_page_config(page_title='7 Mountain Trust Cross Chain Monitoring Tool', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title=ironMirror Cross Chain Monitoring Hub', page_icon=':bar_chart:', layout='wide')
 
 # Title
-st.title('7 Mountain Trust Cross Chain Monitoring Tool')
+st.title('ironMirror Cross Chain Monitoring Hub')
 
 # Content
 c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14 = st.columns(14)
@@ -27,7 +27,7 @@ c14.image(Image.open('images/axelar-logo.png'))
 
 st.write(
     """
-    Seven Mountain Trust Analytics Tool for Users is here for your viewing needs and pleasure.
+    This ironMirror Analytics Tool for Users is here for your viewing needs and pleasure.
 
     The crypto industry continues to progress and its development has never stopped. Contributors
     of each blockchain keep developing each segment of the industry and the whole crypto ecosystem.
@@ -66,10 +66,9 @@ st.write(
 st.subheader('Future Works')
 st.write(
     """
-    This tool is a work in progress and will continue to be developed moving forward. Adding other blockchains,
-    more KPIs and metrics, optimizing the code in general, enhancing the UI/UX of the tool, and more importantly,
-    improving the data pipeline by utilizing [**Flipside ShroomDK**](https://sdk.flipsidecrypto.xyz/shroomdk) are
-    among the top priorities for the development of this app. Feel free to share your feedback, suggestions, and
-    also critics with me.
+To come:  Roadmap, NFTs for only ecosystem token sales, airdrops to the lost IRON value community that registered in the Titan Community discord form, 
+a video game dev studio that has risen from the ashes....and much much more!  
+
+Stay tuned here for details as we will also be beginning the Newsletter soon!
     """
 )
